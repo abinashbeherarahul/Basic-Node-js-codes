@@ -1,0 +1,16 @@
+Hoisting :- 
+in JavaScript is a behavior where variable and function declarations are moved to the top of their respective scopes during the compilation phase, before the code is executed. This means that you can use a variable or call a function before it is formally declared in your code. 
+arrow function
+
+
+const square = num => num * num
+hoeasting
+diff var const let
+| Keyword | Scope    | Re-declarable | Re-assignable | Hoisted                     |
+| ------- | -------- | ------------- | ------------- | --------------------------- |
+| `var`   | Function | Yes           | Yes           | Yes (as `undefined`)        |
+| `let`   | Block    | No            | Yes           | Yes (but not usable before) |
+| `const` | Block    | No            | No            | Yes (but not usable before) |
+
+
+
